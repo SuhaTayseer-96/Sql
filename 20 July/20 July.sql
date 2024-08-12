@@ -60,13 +60,19 @@ select * from Students
 join Enrollment on Students.ID = Enrollment.ID
 join Courses on Enrollment.CourseID = Courses.Course_ID
 where Courses.name = 'Math';
-
-
+--7
+-- this is comment 
+select student .name from student join student assign on student. id
+join assign on assign_studen . id_assign =assign.Id 
+  where assign. name = 'create login page' and assign.student. status = 'completed'
+  ---comment
+  
+--8
 select * from Students
 join attendance on Students.ID = attendance.ID
 where attendance.Type_of_absence = 'leaving' and attendance.AttendanceDate between '10-10-2024' and '20-10-2024';
 
-
+--9
 SELECT Students.Name FROM Students
 JOIN attendance ON Students.ID = attendance.ID
 WHERE attendance.Type_of_absence = 'absence'
